@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Toolbar" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@android:color/white
+        </item><!--color of the toolbar title/label -->
+        <item name="android:textColorSecondary">@android:color/white
+        </item><!--color of the overflow menu and the navigation drawer-->
+    </style>
+
+    <style name="popUpMenu" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@android:color/black
+        </item><!--popup menu item color -->
+        <item name="android:background">@android:color/background_light
+        </item><!-- pop up menu background color -->
+    </style>
+
+    <style name="AppTheme.NoActionBar" >
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AddFab" >
+        <item name="srcCompat">@drawable/ic_add_circle_black_24dp</item>
+        <item name="android:tint">@android:color/white</item>
+    </style>
+</resources>
